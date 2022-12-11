@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+#checkerBoard {
+  width: 845px;
+  height: 845px;
+  background-color: #ccc;
+  border: 10px solid #F5F5DC;
+  border-radius: 5px;
+  position: relative;
+}
+
+.square {
+  width: 103px;
+  height: 103px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.creme {
+  background-color: #d9b99b;
+}
+
+.black {
+  background-color: #000;
+}
+
+.check {
+  width: 103px;
+  height:103px;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.red {
+  background-color: #C41E3A;
+}
+
+.blue {
+  background-color: #0096FF;
+}
